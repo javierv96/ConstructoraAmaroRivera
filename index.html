@@ -1,277 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!--Meta-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Javier Vergara" />
-    <link rel="icon" type="image/png" href="assets/img/logoLetra.png">
-    <!-- Style -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!--Title-->
-    <title>Constructora Amaro Rivera</title>
-    <!-- CDN Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
-      rel="stylesheet"
-    />
+  <!--Meta-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Javier Vergara" />
+  <link rel="icon" type="image/png" href="assets/img/logoLetra.png">
+  <!-- Style -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--Title-->
+  <title>Constructora Amaro Rivera</title>
+  <!-- CDN Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
 </head>
+
 <body id="inicio">
-    <!-- #region NavBar -->
-    <nav data-bs-theme="dark" class="navbar navbar-expand-lg navbar-light fixed-top py-3">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="assets/img/logo.png"
-              alt="Logo"
-              class="ps-5"
-            />
-            <h2 class="d-inline-block mb-0 fw-light">Constructora Amaro Rivera </h2>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <!-- InicioNavbar -->
-              <li class="nav-item">
-                <a class="nav-link text-white mx-3" aria-current="page" href="#inicio"
-                  >Inicio</a
-                >
-              </li>
-              <!-- AboutUsNavbar -->
-              <li class="nav-item">
-                <a class="nav-link text-white mx-3" href="#aboutUs"
-                  >Quienes Somos</a
-                >
-              </li>
-              <!-- DestacadosNavbar -->
-              <li class="nav-item">
-                <a class="nav-link text-white mx-3" href="#destacados">Destacados</a>
-              </li>
-            </ul>
+  <!-- #region NavBar -->
+  <nav data-bs-theme="dark" class="navbar navbar-expand-lg navbar-light fixed-top py-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" alt="Logo" class="ps-5" />
+        <h2 class="d-inline-block mb-0 fw-light">Constructora Amaro Rivera </h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- InicioNavbar -->
+          <li class="nav-item">
+            <a class="nav-link text-white mx-3" aria-current="page" href="#inicio">Inicio</a>
+          </li>
+          <!-- AboutUsNavbar -->
+          <li class="nav-item">
+            <a class="nav-link text-white mx-3" href="#aboutUs">Quienes Somos</a>
+          </li>
+          <!-- DestacadosNavbar -->
+          <li class="nav-item">
+            <a class="nav-link text-white mx-3" href="#destacados">Destacados</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- #endregion-->
+
+  <!-- #region Seccion Encabezado -->
+  <header class="pt-5">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Imagen Carrusel 1 -->
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <!-- Imagen Carrusel 2 -->
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <!-- Imagen Carrusel 3 -->
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <!-- #endregion -->
+  <div class="border-bottom container border-white my-4 col-11 py-4 " id="aboutUs"></div>
+  <!-- #region Seccion About US -->
+  <section class="text-center pt-5 d-none d-md-block">
+    <h1 class="fw-light" id="tituloAboutUs">¿QUIÉNES SOMOS?</h1>
+    <div class="border-bottom container border-white my-4 col-11"></div>
+    <div class="row container m-auto">
+      <!-- Parrafo 1 -->
+      <div class="col-4">
+        <i class="fa-solid fa-person-digging" id="icono"></i>
+        <p>
+          Constructora Amaro Rivera fue fundada por David Amaro Rivera,
+          Ingeniero en construcción con magíster en ingeniería industrial de la Pontificia Universidad Católica de
+          Chile.
+          Con más de 15 años de experiencia, ha sido gerente general de constructoras atendiendo a +50 empresas en
+          rubros
+          como retail, logística y manufactura. Es un experto en gestión de proyectos ágiles (Lean Project) de
+          ingeniería
+          para empresas, especialista en proyectos sanitarios y ha demostrado habilidades de liderazgo excepcionales.
+
+        </p>
+      </div>
+      <!-- Parrafo 2 -->
+      <div class="col-4">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec mattis ante nulla. Donec in neque consectetur,
+          ultrices justo eu. hendrerit lectus. Nullam fermentum
+          turpis et dolo euismod consequat sed sed ante.
+          Curabitur vel lacinia nisi. Sed mollis condimentum
+          rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
+          lorem, mollis sit amet gravida in, finibus ut diam. Nunc
+          cursus lacus ex, id interdum nibh tristique ac. Maecenas
+          in mi blandit, euismod ipsum eu. lobortis nisi. Interdum
+          et malesuada fames ac ante ipsum primis in faucibus.
+          Mauris ultricies sem eu massa pellentesque, id interdum
+          nibh luctus. Nam ac orci id neque posuere aliquam.
+        </p>
+        <i class="fa-sharp fa-solid fa-person-digging" id="icono"></i>
+      </div>
+      <!-- Parrafo 3 -->
+      <div class="col-4">
+        <i class="fa-solid fa-person-digging" id="icono"></i>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec mattis ante nulla. Donec in neque consectetur,
+          ultrices justo eu. hendrerit lectus. Nullam fermentum
+          turpis et dolo euismod consequat sed sed ante.
+          Curabitur vel lacinia nisi. Sed mollis condimentum
+          rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
+          lorem, mollis sit amet gravida in, finibus ut diam. Nunc
+          cursus lacus ex, id interdum nibh tristique ac. Maecenas
+          in mi blandit, euismod ipsum eu. lobortis nisi. Interdum
+          et malesuada fames ac ante ipsum primis in faucibus.
+          Mauris ultricies sem eu massa pellentesque, id interdum
+          nibh luctus. Nam ac orci id neque posuere aliquam.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- #endregion -->
+
+  <div class="border-bottom container border-dark my-4 col-11 py-4" id="destacados"></div>
+
+  <!-- #region Seccion Destacados -->
+  <section class="text-center pt-4">
+    <h1 class="fw-light" id="tituloDestacados">DESTACADOS</h1>
+    <div class="border-bottom container border-white my-4 col-11"></div>
+    <div class="row container m-auto">
+      <!-- Tarjeta 1 -->
+      <div class="col-md-3 col-12">
+        <div class="card mx-auto my-3" style="width: 18rem;">
+          <img src="assets/img/card1.jpg" class="card-img-top tarjetaImagen" alt="..." id="">
+          <div class="card-body contenido" id="">
+            <h5 class="card-title text-start text-white fw-light">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text text-white text-start">
+              Lorem ipsum dolor sit amet.
+              consectetur adipiscing elit. sed do
+              euismod tempor incididunt ut labore
+              et dolore magna aliqua.
+            </p>
           </div>
         </div>
-      </nav>
-      <!-- #endregion-->
-
-      <!-- #region Seccion Encabezado -->
-      <header class="pt-5">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <!-- Imagen Carrusel 1 -->
-              <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <!-- Imagen Carrusel 2 -->
-              <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <!-- Imagen Carrusel 3 -->
-              <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      </div>
+      <!-- Tarjeta 2 -->
+      <div class="col-md-3 col-12">
+        <div class="card mx-auto my-3" style="width: 18rem;">
+          <img src="assets/img/card2.jpg" class="card-img-top tarjetaImagen" alt="..." id="">
+          <div class="card-body contenido" id="">
+            <h5 class="card-title text-start text-white fw-light">Consectetur adipiscing elit</h5>
+            <p class="card-text text-white text-start">
+              Lorem ipsum dolor sit amet.
+              consectetur adipiscing elit. sed do
+              euismod tempor incididunt ut labore
+              et dolore magna aliqua.
+            </p>
           </div>
-      </header>
-      <!-- #endregion -->
-      <div class="border-bottom container border-white my-4 col-11 py-4 " id="aboutUs"></div>
-      <!-- #region Seccion About US -->
-      <section class="text-center pt-5 d-none d-md-block" >
-        <h1 class="fw-light" id="tituloAboutUs">¿QUIÉNES SOMOS?</h1>
-        <div class="border-bottom container border-white my-4 col-11"></div>
-        <div class="row container m-auto">
-            <!-- Parrafo 1 -->
-            <div class="col-4">
-                <i class="fa-solid fa-person-digging" id="icono"></i>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec mattis ante nulla. Donec in neque consectetur,
-                    ultrices justo eu. hendrerit lectus. Nullam fermentum
-                    turpis et dolo euismod consequat sed sed ante.
-                    Curabitur vel lacinia nisi. Sed mollis condimentum
-                    rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
-                    lorem, mollis sit amet gravida in, finibus ut diam. Nunc
-                    cursus lacus ex, id interdum nibh tristique ac. Maecenas
-                    in mi blandit, euismod ipsum eu. lobortis nisi. Interdum
-                    et malesuada fames ac ante ipsum primis in faucibus.
-                    Mauris ultricies sem eu massa pellentesque, id interdum
-                    nibh luctus. Nam ac orci id neque posuere aliquam.
-                </p>
-            </div>
-            <!-- Parrafo 2 -->
-            <div class="col-4">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec mattis ante nulla. Donec in neque consectetur,
-                    ultrices justo eu. hendrerit lectus. Nullam fermentum
-                    turpis et dolo euismod consequat sed sed ante.
-                    Curabitur vel lacinia nisi. Sed mollis condimentum
-                    rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
-                    lorem, mollis sit amet gravida in, finibus ut diam. Nunc
-                    cursus lacus ex, id interdum nibh tristique ac. Maecenas
-                    in mi blandit, euismod ipsum eu. lobortis nisi. Interdum
-                    et malesuada fames ac ante ipsum primis in faucibus.
-                    Mauris ultricies sem eu massa pellentesque, id interdum
-                    nibh luctus. Nam ac orci id neque posuere aliquam.
-                </p>
-                <i class="fa-sharp fa-solid fa-person-digging" id="icono"></i>
-            </div>
-            <!-- Parrafo 3 -->
-            <div class="col-4">
-                <i class="fa-solid fa-person-digging" id="icono"></i>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec mattis ante nulla. Donec in neque consectetur,
-                    ultrices justo eu. hendrerit lectus. Nullam fermentum
-                    turpis et dolo euismod consequat sed sed ante.
-                    Curabitur vel lacinia nisi. Sed mollis condimentum
-                    rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
-                    lorem, mollis sit amet gravida in, finibus ut diam. Nunc
-                    cursus lacus ex, id interdum nibh tristique ac. Maecenas
-                    in mi blandit, euismod ipsum eu. lobortis nisi. Interdum
-                    et malesuada fames ac ante ipsum primis in faucibus.
-                    Mauris ultricies sem eu massa pellentesque, id interdum
-                    nibh luctus. Nam ac orci id neque posuere aliquam.
-                </p>
-            </div>
         </div>
-      </section>
-      <!-- #endregion -->
-
-      <div class="border-bottom container border-dark my-4 col-11 py-4" id="destacados"></div>
-
-      <!-- #region Seccion Destacados -->
-      <section class="text-center pt-4" >
-        <h1 class="fw-light" id="tituloDestacados">DESTACADOS</h1>
-        <div class="border-bottom container border-white my-4 col-11"></div>
-        <div class="row container m-auto">
-            <!-- Tarjeta 1 -->
-            <div class="col-md-3 col-12">
-                <div class="card mx-auto my-3" style="width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top tarjetaImagen" alt="..." id="">
-                    <div class="card-body contenido" id="">
-                      <h5 class="card-title text-start text-white fw-light">Lorem ipsum dolor sit amet</h5>
-                      <p class="card-text text-white text-start">
-                        Lorem ipsum dolor sit amet.
-                        consectetur adipiscing elit. sed do
-                        euismod tempor incididunt ut labore
-                        et dolore magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-            </div>
-            <!-- Tarjeta 2 -->
-            <div class="col-md-3 col-12">
-                <div class="card mx-auto my-3" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top tarjetaImagen" alt="..." id="">
-                    <div class="card-body contenido" id="">
-                      <h5 class="card-title text-start text-white fw-light">Consectetur adipiscing elit</h5>
-                      <p class="card-text text-white text-start">
-                        Lorem ipsum dolor sit amet.
-                        consectetur adipiscing elit. sed do
-                        euismod tempor incididunt ut labore
-                        et dolore magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-            </div>
-            <!-- Tarjeta 3 -->
-            <div class="col-md-3 col-12">
-                <div class="card mx-auto my-3" style="width: 18rem;">
-                    <img src="assets/img/card3.jpg" class="card-img-top tarjetaImagen" alt="..." id="">
-                    <div class="card-body contenido" id="">
-                      <h5 class="card-title text-start text-white fw-light">Sed do euismod tempor</h5>
-                      <p class="card-text text-white text-start">
-                        Lorem ipsum dolor sit amet.
-                        consectetur adipiscing elit. sed do
-                        euismod tempor incididunt ut labore
-                        et dolore magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-            </div>
-            <!-- Tarjeta 4 -->
-            <div class="col-md-3 col-12">
-                <div class="card mx-auto my-3" style="width: 18rem;">
-                    <img src="assets/img/card4.jpg" class="card-img-top tarjetaImagen" alt="..." id="">
-                    <div class="card-body contenido" id="">
-                      <h5 class="card-title text-start text-white fw-light">Ut enim ad minim veniam</h5>
-                      <p class="card-text text-white text-start">
-                        Lorem ipsum dolor sit amet.
-                        consectetur adipiscing elit. sed do
-                        euismod tempor incididunt ut labore
-                        et dolore magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-            </div>
+      </div>
+      <!-- Tarjeta 3 -->
+      <div class="col-md-3 col-12">
+        <div class="card mx-auto my-3" style="width: 18rem;">
+          <img src="assets/img/card3.jpg" class="card-img-top tarjetaImagen" alt="..." id="">
+          <div class="card-body contenido" id="">
+            <h5 class="card-title text-start text-white fw-light">Sed do euismod tempor</h5>
+            <p class="card-text text-white text-start">
+              Lorem ipsum dolor sit amet.
+              consectetur adipiscing elit. sed do
+              euismod tempor incididunt ut labore
+              et dolore magna aliqua.
+            </p>
+          </div>
         </div>
-      </section>
-      <!-- #endregion -->
-
-      <!-- #region Seccion Footer -->
-      <footer class="mt-5 row py-4 m-auto">
-        <div class="text-center col-12 col-md-12">
-            <h2 class="fw-light mb-0 text-white" id="viajesChile">Constructora Amaro Rivera</h1>
-            <label>San Martín 1325 of 224 Torre , Temuco</label>
-            <br>
-            <label class="mail">david@amarorivera.cl</label>
+      </div>
+      <!-- Tarjeta 4 -->
+      <div class="col-md-3 col-12">
+        <div class="card mx-auto my-3" style="width: 18rem;">
+          <img src="assets/img/card4.jpg" class="card-img-top tarjetaImagen" alt="..." id="">
+          <div class="card-body contenido" id="">
+            <h5 class="card-title text-start text-white fw-light">Ut enim ad minim veniam</h5>
+            <p class="card-text text-white text-start">
+              Lorem ipsum dolor sit amet.
+              consectetur adipiscing elit. sed do
+              euismod tempor incididunt ut labore
+              et dolore magna aliqua.
+            </p>
+          </div>
         </div>
-      </footer>
-      <!-- #endregion -->
+      </div>
+    </div>
+  </section>
+  <!-- #endregion -->
 
-    <!-- CDN FontAwesome -->
-    <script
-      src="https://kit.fontawesome.com/d4b73d489f.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <!-- JavaScript -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Jquery -->
-		<script
-    src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  <!-- #region Seccion Footer -->
+  <footer class="mt-5 row py-4 m-auto">
+    <div class="text-center col-12 col-md-12">
+      <h2 class="fw-light mb-0 text-white" id="viajesChile">Constructora Amaro Rivera</h2>
+      <label>San Martín 1325 of 224 Torre , Temuco</label>
+      <br>
+      <label class="mail">david@amarorivera.cl</label>
+    </div>
+  </footer>
+  <!-- #endregion -->
+
+  <!-- CDN FontAwesome -->
+  <script src="https://kit.fontawesome.com/d4b73d489f.js" crossorigin="anonymous"></script>
+  <!-- Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
-    <!-- Js -->
-    <script src="./assets/js/script.js"></script>
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- Js -->
+  <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
