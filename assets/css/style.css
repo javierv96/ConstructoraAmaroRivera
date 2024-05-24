@@ -59,3 +59,21 @@ footer label{
 .mail{
   color: #fe6100;
 }
+
+.carousel-item .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev-icon {
+  background-color: #1f365c;
+  background-size: 100%, 100%;
+  margin-right: 100px;
+}
+.carousel-control-next-icon {
+  background-color: #1f365c;
+  background-size: 100%, 100%;
+  margin-left: 100px;
+}
+
