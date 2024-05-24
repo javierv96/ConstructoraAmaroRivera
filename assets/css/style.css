@@ -1,5 +1,5 @@
 nav {
-  background-color: #1f365c;
+  background-color: #a41f20;
   color: #fff;
 }
 nav a img {
@@ -11,7 +11,7 @@ header img {
   height: 43.75rem;
 }
 #icono {
-  background-color: #fe6100;
+  background-color: #999999;
   width: 100%;
   height: 30px;
   padding-top: 7px;
@@ -25,13 +25,13 @@ header img {
   height: 180px;
 }
 .card-body {
-  background-color: #1f365c;
+  background-color: #a41f20;
 }
 #contacto .btn {
-  background-color: #1f365c;
+  background-color: #a41f20;
 }
 footer {
-  background-color: #1f365c;
+  background-color: #a41f20;
 }
 footer i {
   font-size: 40px;
@@ -52,12 +52,12 @@ nav a img {
   background-color: #fff;
 }
 
-footer label{
-  color:#808080;
+footer h4{
+  color:#fff;
 }
 
 .mail{
-  color: #fe6100;
+  color: #fff;
 }
 
 .carousel-item .row {
@@ -67,12 +67,12 @@ footer label{
 }
 
 .carousel-control-prev-icon {
-  background-color: #1f365c;
+  background-color: #999999;
   background-size: 100%, 100%;
   margin-right: 100px;
 }
 .carousel-control-next-icon {
-  background-color: #1f365c;
+  background-color: #999999;
   background-size: 100%, 100%;
   margin-left: 100px;
 }
